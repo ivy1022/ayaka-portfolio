@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Sintony');
 
 $colors-list: #811453 #3C144F #9F4576 #9C2542 #0A7E8C;
+  // $colors-list: #D1B3C4 #B392AC #D1B3C4 #B392AC #D1B3C4;
 
 html, body {height:100%;
   width:100%;
@@ -11,7 +12,7 @@ html,body {
 height:100%;
   width:100%;
   margin: 0;
-  background-color:#171717;
+  background-color:#804D69;
   font-family: 'Sintony', sans-serif;
 }
 
@@ -45,7 +46,7 @@ list-style-type: none;
     padding:0;
   
   > * {
-    color: #FFB7C5;
+    color: whitesmoke;
     display: block;
     list-style:none;
     padding-top:3%;
@@ -60,7 +61,7 @@ list-style-type: none;
     font-size:23px;
     padding-top:5px;
     text-transform: uppercase;
-    color:#FFB7C5;
+    color:whitesmoke;
     font-weight:bold;
     display:none;
       
