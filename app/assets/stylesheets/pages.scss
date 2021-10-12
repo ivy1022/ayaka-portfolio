@@ -2,6 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
+// all pages //
+
+.title {
+  font-size: 50px;
+ font-family: 'Londrina Sketch', cursive;;
+}
+
 .container {
     // display: -ms-flexbox;
     // display: -webkit-box;
@@ -17,4 +24,14 @@
     color: antiquewhite;
     flex: 1;
     // width: 300px;
+  }
+
+// CV //
+
+  .resume {
+    width: 400px;
+    height: 100%;
+    border-radius: 5%;
+    object-fit: fill;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
   }
