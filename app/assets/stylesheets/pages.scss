@@ -2,7 +2,18 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-// body {
-//     color: white;
-//     background-color: #804D69;
-// }
+.container {
+    // display: -ms-flexbox;
+    // display: -webkit-box;
+    // display: -webkit-flex;
+    display: flex;
+    // margin: 0 auto;
+    max-width: 1080px;
+  }
+
+.main {
+    width: calc(100% - 0px);
+  }
+// .sidebar {
+//     width: 300px;
+//   }
