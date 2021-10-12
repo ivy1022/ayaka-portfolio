@@ -5,8 +5,8 @@ $colors-list: #811453 #3C144F #9F4576 #9C2542 #0A7E8C;
 
 html, body {height:100%;
   width:100%;
- margin:0;
-    padding:0; }
+  margin:0;
+  padding:0; }
 
 html,body {
 height:100%;
@@ -18,7 +18,7 @@ height:100%;
 
 .sidebar {
   // height:100%;
-  width:100%;
+  width: 250px;
   max-width:1100px;
   min-height:650px;
   overflow:hidden;
@@ -42,16 +42,23 @@ list-style-type: none;
     width:100%;
     height:100%;
     display: block;
-    margin:0;
+    margin: auto 0;
     padding:0;
   
   > * {
+    a {
+      text-decoration: none;
+      display: block;
+    }
+
+    a:visited { color:white; text-decoration:none }
+    
     color: whitesmoke;
     display: block;
     list-style:none;
-    padding-top:5%;
-    width: 30%;
-    height:15%;
+    padding-top:6%;
+    width: 60%;
+    height:17%;
     margin:0;
     transition: all 0.9s cubic-bezier(.87,-.31,.19,1.44);
     text-align:center;
@@ -64,7 +71,7 @@ list-style-type: none;
     color:whitesmoke;
     font-weight:bold;
     display:none;
-      
+    text-decoration: none;
     }
      
 
@@ -83,16 +90,18 @@ list-style-type: none;
 
 .sidebar ul li:hover {
 
- width:40%;
+ width:80%;
  
   border-top-right-radius: 2em;
   border-bottom-right-radius: 2em;
   opacity:1;
-
+  text-decoration:none;
+  
 }
 
 .sidebar ul li:hover span {
 display:block;
+text-decoration:none;
 
 }
 
