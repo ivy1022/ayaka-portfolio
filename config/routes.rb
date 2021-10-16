@@ -4,4 +4,5 @@ Rails.application.routes.draw do
   get "pages/bio" => "pages#bio"
   get "pages/portfolio" => "pages#portfolio"
   get "pages/cv" => "pages#cv"
+  get "pages/contact" => "pages#contact"
 end
