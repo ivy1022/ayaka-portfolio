@@ -1,5 +1,37 @@
 <div class="main">
-<%= image_tag "FEUI.jpg", class: "resume", alt: "" %>
+<%#= image_tag "FEUI.jpg", class: "resume", alt: "" %>
 
+  <div class="overlay hidden"></div> <!-- overlay -->
 
+  <div class="show-modal"><%= image_tag "FEUI.jpg", class: "resume", alt: "" %></div> <!-- モーダルを表示されるボタン -->
+
+  <div class="modal hidden">
+    <!-- モーダル-->
+    <div class="close-modal">&times;</div> <!-- モーダルを閉じるボタン -->
+    <%= image_tag "FEUI.jpg", class: "resume resumemodal", alt: "" %>
+  </div>
+  <script>
+    "use strict";
+
+    const modal = document.querySelector(".modal"); //modalを指定
+    const overlay = document.querySelector(".overlay"); //overlayを指定
+    const btnOpenModal = document.querySelector(".show-modal"); //modalを開くボタンを指定
+    const btnCloseModal = document.querySelector(".close-modal"); //modalを閉じるボタンを指定
+
+    //modalとoverlayのhiddenクラスを消す（modalとoverlayが見えるようにする）処理
+    const openModal = () => {
+    modal.classList.remove("hidden");
+    overlay.classList.remove("hidden");
+    };
+
+    //modalとoverlayのhiddenクラスを追加する（modalとoverlayが見えないようにする）処理
+    const closeModal = () => {
+    modal.classList.add("hidden");
+    overlay.classList.add("hidden");
+    };
+
+    //modalの開くボタンと閉じるボタンをクリックした時の処理
+    btnOpenModal.addEventListener("click", openModal);
+    btnCloseModal.addEventListener("click", closeModal);
+ </script>
 </div>
