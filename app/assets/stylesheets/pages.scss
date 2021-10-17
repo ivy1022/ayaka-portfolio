@@ -100,9 +100,17 @@ html,body {
   height: 200px;
 }
 
-/*==================================================
-スライダーのためのcss
-===================================*/
-.slick-slide img {
-	width: 100%;
+// contact
+
+.contact {
+  height: 100px;
+  font-size: 50px;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a {
+    color: white;
+  }
 }
