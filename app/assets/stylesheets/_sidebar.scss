@@ -4,15 +4,6 @@ $colors-list: #811453 #3C144F #9F4576 #9C2542 #0A7E8C;
   // $colors-list: #D1B3C4 #B392AC #D1B3C4 #B392AC #D1B3C4;
 
 
-html,body {
-  // height:100%;
-  // width:100%;
-  // margin: 0;
-  background-color:#804D69;
-  font-family: 'Sintony', sans-serif;
-
-}
-
 .sidebar {
   // height:100%;
   width: 250px;
@@ -37,7 +28,7 @@ html,body {
 .sidebar ul{
 list-style-type: none;
     width:100%;
-    height:100%;
+    height:660px;
     display: block;
     margin: auto 0;
     padding:0;
