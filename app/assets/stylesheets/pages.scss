@@ -23,7 +23,7 @@ html,body {
     // display: -webkit-box;
     // display: -webkit-flex;
     display: flex;
-    max-width: 1080px;
+    max-width: 90%;
   }
 
 .main {
@@ -31,6 +31,7 @@ html,body {
     margin: auto 0;
     color: antiquewhite;
     flex: 1;
+    margin-left: 50px;
   }
 
 // CV //
